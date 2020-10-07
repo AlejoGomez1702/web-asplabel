@@ -4,6 +4,14 @@
 * Trunk version 2.0.0
 *
 */
+
+:root
+{
+	--green-bg: #426f42;
+	--green-bg-ligth: #439642;
+}
+
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -4634,7 +4642,7 @@ html * + .post-creative__carousel {
 */
 footer.footer-classic {
 	color: rgba(255, 255, 255, 0.5);
-	background: #012730;
+	background: var(--green-bg);
 }
 
 footer.footer-classic .lead,
@@ -6223,7 +6231,7 @@ html [class*='section-'].section-bottom-0 {
 * Dark Backgrounds
 */
 .bg-gray-700 {
-	background-color: #012730;
+	background-color: var(--green-bg); 
 	color: rgba(255, 255, 255, 0.5);
 }
 
@@ -7142,7 +7150,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar {
 	display: none;	
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar **********/
 }
 
 .rd-navbar-toggle {
@@ -7469,7 +7477,7 @@ html:not(.lt-ie10) .not-animated {
 	left: -25px;
 	width: 270px;
 	padding: 25px;
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar *****/
 	z-index: 5;
 }
 
@@ -7577,7 +7585,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 100%;
 	max-width: 1200px;
 	padding: 30px;
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar **********/
 	/* background: #fff; */
 }
 
@@ -7716,7 +7724,7 @@ html:not(.lt-ie10) .not-animated {
 	right: 0;
 	z-index: 1030;
 	/* background: #fff; */
-	background: #426f42;  /********** Color del navbar **********/	
+	background: var(--green-bg);  /********** Color del navbar **********/	
 }
 
 .rd-navbar-static .rd-navbar--has-dropdown {
@@ -8112,13 +8120,13 @@ html:not(.lt-ie10) .not-animated {
 	color: #9b9b9b;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 	/* background: #fff; */
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar **********/
 }
 
 .rd-navbar-fixed .rd-navbar-nav-outer {
 	color: #fff;
 	/* background: #fff; */
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar **********/
 	border: 1px solid #f6f6f6;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -8187,7 +8195,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-collapse {
 	/* background-color: #fff; */
-	background: #426f42;  /********** Color del navbar **********/
+	background: var(--green-bg);  /********** Color del navbar **********/
 	box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
@@ -10310,8 +10318,8 @@ html .btcwdgt-chart {
 .slick-group-slider {
 	position: relative;
 	overflow: hidden;
-  background: #353535;
-  margin-left: -25%;
+	background: var(--green-bg-ligth);
+	margin-left: -25%;
 }
 
 .slick-group-slider .carousel-parent-outer {
@@ -10469,7 +10477,7 @@ html .btcwdgt-chart {
 	.slick-group-slider .carousel-parent-outer 
 	{
 		max-width: calc(50% - 960px / 2 + 30px + (960px / 12) * 6);
-		background: #012730; /* ********Color carousel debajo del header******* */		
+		background: var(--green-bg); /* ********Color carousel debajo del header******* */		
 	}
 	.slick-group-slider .carousel-child {
 		max-width: calc(50% + 40px);
